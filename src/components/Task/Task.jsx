@@ -1,4 +1,5 @@
-import { MdClose } from 'react-icons/md';
+// import { MdClose } from 'react-icons/md';
+import { RiDeleteBinLine } from 'react-icons/ri';
 import { useDispatch } from 'react-redux';
 import { deleteTask, toggleCompleted } from 'redux/tasksSlice';
 import css from './Task.module.css';
@@ -17,7 +18,7 @@ export const Task = ({ task }) => {
       />
       <p className={css.text}>{task.text}</p>
       <button className={css.btn} onClick={handleDelete}>
-        <MdClose size={24} />
+        <RiDeleteBinLine size={20} />
       </button>
     </div>
   );

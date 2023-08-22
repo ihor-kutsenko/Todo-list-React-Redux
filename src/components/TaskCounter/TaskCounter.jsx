@@ -21,8 +21,12 @@ export const TaskCounter = () => {
   );
   return (
     <div>
-      <p className={css.text}>Active: {count.active}</p>
-      <p className={css.text}>Completed: {count.completed}</p>
+      <p className={css.text}>
+        Active: <span className={css.active}> {count.active}</span>
+      </p>
+      <p className={css.text}>
+        Completed: <span className={css.completed}>{count.completed}</span>
+      </p>
     </div>
   );
 };

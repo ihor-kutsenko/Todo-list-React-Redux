@@ -4,13 +4,14 @@
   border-radius: 4px;
   border: none;
   font: inherit;
+  font-weight: 500;
   cursor: pointer;
   background-color: #e2e5e8;
   color: inherit;
 }
 
 .btn.isSelected {
-  background-color: #1976d2;
+  background-color: #ff6b08;
   color: #fff;
 }
 
